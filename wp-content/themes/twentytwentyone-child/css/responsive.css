@@ -1,0 +1,54 @@
+@media (max-width: 1200px) { 
+.stad-item img {
+min-height: 354px;
+}
+.content {
+left: 65px;
+}
+}
+
+
+
+@media (max-width: 991px) { 
+.stad_min {
+width: 47%;
+margin: 20px 0;
+}
+
+.stand_child {
+margin: 20px 0;
+flex-wrap: wrap;
+}
+.stad_max {
+width: 47%;
+}
+}
+
+@media (max-width: 767px) { 
+.stand_child {
+flex-wrap: wrap;
+}
+.stad_max {
+width: 100%;
+margin: 20px 0;
+}
+.content {
+left: 43px;
+}
+.content h3 {
+font-size: 22px;
+}
+.stad_min {
+width: 100%;
+}
+.stand_child {
+margin: 0px 0;
+}
+}
+
+
+@media (max-width: 480px){
+.stad-item img {
+min-height: 410px;
+}
+}
